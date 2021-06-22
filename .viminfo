@@ -12,11 +12,13 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1624355843,,"wq"
+|2,0,1624371562,,"wq"
 :q
-|2,0,1624355770,,"q"
+|2,0,1624370736,,"q"
 :q!
-|2,0,1624355022,,"q!"
+|2,0,1624367636,,"q!"
+:wq!
+|2,0,1624365147,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -29,230 +31,282 @@
 # Registers:
 
 # File marks:
-'0  9  16  ~/tags.yml
-|4,48,9,16,1624355843,"~/tags.yml"
-'1  13  35  ~/tags.yml
-|4,49,13,35,1624355770,"~/tags.yml"
-'2  13  35  ~/tags.yml
-|4,50,13,35,1624355770,"~/tags.yml"
-'3  13  35  ~/tags.yml
-|4,51,13,35,1624355681,"~/tags.yml"
-'4  13  35  ~/tags.yml
-|4,52,13,35,1624355681,"~/tags.yml"
-'5  19  11  ~/main.yml
-|4,53,19,11,1624355294,"~/main.yml"
-'6  43  0  ~/main.yml
-|4,54,43,0,1624355241,"~/main.yml"
-'7  43  0  ~/main.yml
-|4,55,43,0,1624355241,"~/main.yml"
-'8  4  5  ~/include.yml
-|4,56,4,5,1624355222,"~/include.yml"
-'9  4  5  ~/include.yml
-|4,57,4,5,1624355049,"~/include.yml"
+'0  47  5  ~/Cipipeline.yml
+|4,48,47,5,1624371562,"~/Cipipeline.yml"
+'1  46  28  ~/Cipipeline.yml
+|4,49,46,28,1624370736,"~/Cipipeline.yml"
+'2  46  28  ~/Cipipeline.yml
+|4,50,46,28,1624370736,"~/Cipipeline.yml"
+'3  46  28  ~/Cipipeline.yml
+|4,51,46,28,1624370664,"~/Cipipeline.yml"
+'4  46  28  ~/Cipipeline.yml
+|4,52,46,28,1624370664,"~/Cipipeline.yml"
+'5  46  27  ~/Cipipeline.yml
+|4,53,46,27,1624370528,"~/Cipipeline.yml"
+'6  46  27  ~/Cipipeline.yml
+|4,54,46,27,1624370528,"~/Cipipeline.yml"
+'7  46  27  ~/Cipipeline.yml
+|4,55,46,27,1624370528,"~/Cipipeline.yml"
+'8  46  27  ~/Cipipeline.yml
+|4,56,46,27,1624370528,"~/Cipipeline.yml"
+'9  42  12  ~/Cipipeline.yml
+|4,57,42,12,1624370404,"~/Cipipeline.yml"
 
 # Jumplist (newest first):
--'  9  16  ~/tags.yml
-|4,39,9,16,1624355843,"~/tags.yml"
--'  13  35  ~/tags.yml
-|4,39,13,35,1624355808,"~/tags.yml"
--'  13  35  ~/tags.yml
-|4,39,13,35,1624355770,"~/tags.yml"
--'  13  35  ~/tags.yml
-|4,39,13,35,1624355681,"~/tags.yml"
--'  1  0  ~/tags.yml
-|4,39,1,0,1624355628,"~/tags.yml"
--'  1  0  ~/tags.yml
-|4,39,1,0,1624355628,"~/tags.yml"
--'  1  0  ~/tags.yml
-|4,39,1,0,1624355628,"~/tags.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  19  11  ~/main.yml
-|4,39,19,11,1624355294,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355262,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  43  0  ~/main.yml
-|4,39,43,0,1624355241,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  1  0  ~/main.yml
-|4,39,1,0,1624355226,"~/main.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355222,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
--'  4  5  ~/include.yml
-|4,39,4,5,1624355049,"~/include.yml"
+-'  47  5  ~/Cipipeline.yml
+|4,39,47,5,1624371562,"~/Cipipeline.yml"
+-'  46  28  ~/Cipipeline.yml
+|4,39,46,28,1624371406,"~/Cipipeline.yml"
+-'  46  28  ~/Cipipeline.yml
+|4,39,46,28,1624370736,"~/Cipipeline.yml"
+-'  46  28  ~/Cipipeline.yml
+|4,39,46,28,1624370664,"~/Cipipeline.yml"
+-'  46  27  ~/Cipipeline.yml
+|4,39,46,27,1624370528,"~/Cipipeline.yml"
+-'  42  12  ~/Cipipeline.yml
+|4,39,42,12,1624370442,"~/Cipipeline.yml"
+-'  42  12  ~/Cipipeline.yml
+|4,39,42,12,1624370442,"~/Cipipeline.yml"
+-'  42  12  ~/Cipipeline.yml
+|4,39,42,12,1624370442,"~/Cipipeline.yml"
+-'  42  12  ~/Cipipeline.yml
+|4,39,42,12,1624370442,"~/Cipipeline.yml"
+-'  42  12  ~/Cipipeline.yml
+|4,39,42,12,1624370404,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370387,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370387,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370387,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370387,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370387,"~/Cipipeline.yml"
+-'  40  4  ~/Cipipeline.yml
+|4,39,40,4,1624370349,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370336,"~/Cipipeline.yml"
+-'  39  2  ~/Cipipeline.yml
+|4,39,39,2,1624370329,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370309,"~/Cipipeline.yml"
+-'  38  5  ~/Cipipeline.yml
+|4,39,38,5,1624370290,"~/Cipipeline.yml"
+-'  46  2  ~/Cipipeline.yml
+|4,39,46,2,1624370257,"~/Cipipeline.yml"
+-'  46  2  ~/Cipipeline.yml
+|4,39,46,2,1624370257,"~/Cipipeline.yml"
+-'  46  2  ~/Cipipeline.yml
+|4,39,46,2,1624370257,"~/Cipipeline.yml"
+-'  46  2  ~/Cipipeline.yml
+|4,39,46,2,1624370257,"~/Cipipeline.yml"
+-'  46  2  ~/Cipipeline.yml
+|4,39,46,2,1624370237,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  50  0  ~/Cipipeline.yml
+|4,39,50,0,1624370121,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  34  0  ~/Cipipeline.yml
+|4,39,34,0,1624368872,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368670,"~/Cipipeline.yml"
+-'  27  15  ~/Cipipeline.yml
+|4,39,27,15,1624368523,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368303,"~/Cipipeline.yml"
+-'  23  32  ~/Cipipeline.yml
+|4,39,23,32,1624368007,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  38  ~/Cipipeline.yml
+|4,39,5,38,1624367648,"~/Cipipeline.yml"
+-'  5  49  ~/Cipipeline.yml
+|4,39,5,49,1624367636,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
+-'  14  25  ~/Cipipeline.yml
+|4,39,14,25,1624367072,"~/Cipipeline.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/Cipipeline.yml
+	*	1624371558	0
+	"	47	5
+	^	47	6
+	.	47	6
+	+	3	12
+	+	58	0
+	+	7	24
+	+	15	0
+	+	14	25
+	+	56	11
+	+	57	0
+	+	56	11
+	+	5	49
+	+	19	9
+	+	18	5
+	+	19	9
+	+	20	49
+	+	23	33
+	+	27	16
+	+	28	16
+	+	51	2
+	+	50	0
+	+	49	0
+	+	46	109
+	+	35	1
+	+	39	1
+	+	40	4
+	+	38	5
+	+	39	2
+	+	40	4
+	+	42	13
+	+	33	27
+	+	46	27
+	+	33	28
+	+	46	28
+	+	33	28
+	+	46	61
+	+	47	6
+
+> /etc/ansible/hosts
+	*	1624365172	0
+	"	1	0
+	^	2	0
+	.	1	12
+	+	1	25
+	+	1	7
+	+	7	12
+	+	6	5
+	+	4	1
+	+	1	12
 
 > ~/tags.yml
 	*	1624355840	0

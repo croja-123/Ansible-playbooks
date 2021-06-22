@@ -1,0 +1,52 @@
+---
+- name: Implementing CI CD Pipeline
+  hosts: all
+  tasks:
+   - name: Installing requires toolkits
+     apt:
+      name: "{{item.a}}"
+      state: present
+      update_cache: "{{item.b}}"
+     with_items:
+      - {a: openjdk-8-jdk,b: yes}
+      - {a: git,b: no}
+      - {a: maven,b: no}
+      - {a: tomcat9,b: no}
+- name: PUSH CODE FROM GIT
+  hosts: dev
+  tasks:
+   - name: Downloading code from git repository 
+     git:
+      repo: https://gitlab.com/intelliq/maven.git
+      dest: /home/ubuntu/newgit
+   - name: build the code
+     shell: cd newgit;mvn package
+   - name: fetch from managed node to controller
+     fetch:
+      src: newgit/webapp/target/webapp.war
+      dest: /tmp
+- name: Continuous deployment and testing
+  hosts: test
+  tasks:
+   - name: pushing data to qaserver from controller
+     copy:
+      src: /tmp/172.31.23.104/newgit/webapp/target/webapp.war
+      dest: /var/lib/tomcat9/webapps/testapp.war
+   - name: Download the selenium test scripts
+     git:
+      repo: https://github.com/intelliqittrainings/FunctionalTesting.git
+      dest: test-git
+   - name: Execute the selenium scripts
+     shell: java -jar /home/ubuntu/test-git/testing.jar
+- name: Continuous Delivery
+  hosts: prod
+  tasks:
+   - name: Copy the artifact into prodserver tomcat
+     copy:
+      src: /tmp/172.31.23.104/newgit/webapp/target/webapp.war
+      dest: /var/lib/tomcat9/webapps/prodapp.war
+
+
+
+     
+
