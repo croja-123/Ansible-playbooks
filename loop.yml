@@ -1,0 +1,28 @@
+--- 
+- name: Loop
+  hosts: all
+  tasks:
+   - name: installing tools
+     apt:
+      name: "{{ item.a }}"
+      state: present
+      update_cache: "{{ item.b }}"
+     with_items:
+      - { a: tomcat9, b: yes }
+      - { a: tree, b: no }
+   - name: Copying files  
+     copy:
+      src: file2
+      dest: /tmp
+   - name: Restrt service
+     service:
+      name: tomcat9
+      state: restarted
+
+
+
+
+
+
+
+

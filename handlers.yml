@@ -1,0 +1,21 @@
+---
+- name: handlers
+  hosts: all
+  tasks:
+   - name: Install apache2
+     apt:
+      name: apache2
+      state: present
+   - name: copy module
+     copy:
+      content: Welvcome intelliq
+      dest: /var/www/html/index.html
+     notify: Restart apache2
+  handlers:
+   - name: Restart apache2
+     service:
+      name: apache2
+      state: restarted
+
+
+

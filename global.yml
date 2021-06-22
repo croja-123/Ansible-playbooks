@@ -1,0 +1,11 @@
+---
+- name: Declaring global scope varibales
+  hosts: all
+  tasks:
+   - name: Global variables
+     user:
+      name: "{{ a }}"
+      password: "{{ b }}"
+
+
+
