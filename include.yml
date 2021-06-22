@@ -1,0 +1,13 @@
+---
+- name: All files related to include
+  hosts: all
+  sudo: yes
+  tasks:
+   - name: include
+     include: "{{item}}"
+     with_items:
+      - install.yml
+      - restart.yml 
+      - copy.yml 
+
+

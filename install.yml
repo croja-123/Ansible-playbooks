@@ -1,0 +1,7 @@
+---
+- name: Install 
+   apt:
+    name: openjdk-8-jdk
+    state: absent
+    update_cache: yes
+

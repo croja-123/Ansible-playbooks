@@ -1,0 +1,6 @@
+---
+- name: Restart
+  service:
+   name: openjdk-8-jdk
+   state: restarted
+

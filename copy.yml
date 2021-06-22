@@ -1,0 +1,8 @@
+---
+- name: Copy module
+  copy:
+   src: file2
+   dest: /tmp/file2
+
+
+         
