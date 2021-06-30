@@ -1,5 +1,5 @@
 ---
-- name: Declaring global scope varibales
+- name: Declaring global scope varibales to
   hosts: all
   vars:
    - a: ram
