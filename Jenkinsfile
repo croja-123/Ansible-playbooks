@@ -7,7 +7,7 @@ stages
     {
         steps
         {
-            echo "stage1"
+            echo "stage"
             
             
         }
