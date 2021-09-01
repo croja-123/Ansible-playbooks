@@ -11,7 +11,7 @@ pipeline {
     quietPeriod 500
      }
   tools {
-  git 'Default'
+  git 'git'
   
   }
  
