@@ -12,8 +12,7 @@ pipeline {
      }
   tools {
   git 'Default'
-  jdk 'java'
-  maven 'maven'
+  
   }
  
 stages
